@@ -4,5 +4,5 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
-git push -u origin backup
+git push -u origin master
 echo "backup complete......"
