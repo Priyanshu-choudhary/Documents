@@ -6,7 +6,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
-git remote add 
+git remote add origin git@github.com:Priyanshu-choudhary/Arduino-codes.git
 git push -u origin master
 echo "backup complete......"
 
@@ -16,6 +16,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git remote add origin git@github.com:Priyanshu-choudhary/java.git
 git push -u origin master
 echo "backup complete......"
 
@@ -25,6 +26,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git remote add origin git@github.com:Priyanshu-choudhary/c-language.git
 git push -u origin master
 echo "backup complete......"
 
@@ -34,6 +36,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git remote add origin git@github.com:Priyanshu-choudhary/shell.git
 git push -u origin master
 echo "backup complete......"
 
@@ -43,6 +46,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git remote add origin git@github.com:Priyanshu-choudhary/Documents.git
 git push -u origin master
 echo "backup complete......"
 
@@ -53,6 +57,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git remote add origin git@github.com:Priyanshu-choudhary/web.git
 git push -u origin master
 echo "backup complete......"
 
@@ -63,6 +68,7 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git remote add origin git@github.com:Priyanshu-choudhary/Backup.git
 git push -u origin master
 echo "backup complete......"
 
