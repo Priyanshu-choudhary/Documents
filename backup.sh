@@ -12,15 +12,15 @@ git push -u origin backupBranch
 echo "backup complete......"
 
 #JAVA FOLDER
-#cd /home/priyanshu/java
-#echo "backup Start...."
-#git init
-#git add -A
-#git commit -m "backup"
-#git checkout -b backupBranch
-#git remote add origin git@github.com:Priyanshu-choudhary/java.git
-#git push -u origin backupBranch
-#echo "backup complete......"
+cd /home/priyanshu/java
+echo "backup Start...."
+git init
+git add -A
+git commit -m "backup"
+git checkout -b backupBranch
+git remote add origin git@github.com:Priyanshu-choudhary/java.git
+git push -u origin backupBranch
+echo "backup complete......"
 
 #C-LANGUAGE FOLDER
 cd /home/priyanshu/c-language
