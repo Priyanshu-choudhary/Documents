@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #ARDUINO FOLDER
-cd /home/priyanshu/arduino
+cd /home/priyanshu/Arduino-codes
 echo "backup Start...."
 git init
 git add -A
@@ -45,4 +45,25 @@ git add -A
 git commit -m "backup"
 git push -u origin master
 echo "backup complete......"
+
+
+#WEB FOLDER
+cd /home/priyanshu/web
+echo "backup Start...."
+git init
+git add -A
+git commit -m "backup"
+git push -u origin master
+echo "backup complete......"
+
+
+#BACKUP FOLDER
+cd /home/priyanshu/Backup
+echo "backup Start...."
+git init
+git add -A
+git commit -m "backup"
+git push -u origin master
+echo "backup complete......"
+
 
