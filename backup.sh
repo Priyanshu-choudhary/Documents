@@ -6,8 +6,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/Arduino-codes.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 #JAVA FOLDER
@@ -16,8 +17,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/java.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 #C-LANGUAGE FOLDER
@@ -26,8 +28,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/c-language.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 #SHELL FOLDER
@@ -36,8 +39,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/shell.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 #DOCUMENTS FOLDER
@@ -46,8 +50,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/Documents.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 
@@ -57,8 +62,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/web.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 
@@ -68,8 +74,9 @@ echo "backup Start...."
 git init
 git add -A
 git commit -m "backup"
+git checkout -b backupBranch
 git remote add origin git@github.com:Priyanshu-choudhary/Backup.git
-git push -u origin master
+git push -u origin backupBranch
 echo "backup complete......"
 
 
