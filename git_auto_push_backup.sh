@@ -2,7 +2,7 @@
 
 #ARDUINO FOLDER
 itime=`date`
-#echo $itime
+echo $itime
 cd /home/priyanshu/Arduino-codes
 #echo "backup Start...."
 git init
