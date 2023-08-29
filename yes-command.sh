@@ -4,7 +4,7 @@ read answer
 if [ $answer == y ]
 then
    echo "hello"
-elif [ $answer == /n ]
+elif [ $answer == '/n' ]
 then
   echo "enter"
 
