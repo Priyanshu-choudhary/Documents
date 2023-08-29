@@ -1,9 +1,9 @@
 #!/bin/sh
-
-answer = 
-if [  ]
+echo "do you want to continue?"
+read answer
+if [$answer == y  ]
 then
-   echo "Connected to internet"
+   echo "hello"
 else
-   echo "Not connected to internet"
+   echo "Not working"
 
