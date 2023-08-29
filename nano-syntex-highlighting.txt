@@ -1,7 +1,11 @@
-#step 1. edit this file 
+#step 1. open current language highlight config file folder 
+$ cd /usr/share/nano/
+
+#step 2. edit this file 
+
 $ nano ~/.nanorc
 
-#step 2. past the above code
+#step 3. past the above code
 
 ## Syntax highlighting for Java.
 syntax java "\.java$"
