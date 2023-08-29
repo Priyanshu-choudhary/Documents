@@ -1,0 +1,15 @@
+Shortcut-Keys	        Description
+
+Ctrl + E	        Moves your text cursor to Google search.
+alt + d        		Move the cursor to the browser address bar
+ctrl + n        	new tab.
+ctrl + Arrow >  	Back a page
+ctrl + Arrow <  	Forward a page 
+ESE    			Stop loading the page or a download from loading.
+ctrl + d		Add bookmark
+ctrl + tab 		Switch tab.
+Ctrl+T			Opens a new tab.
+Ctrl+W			Closes the current tab.
+Ctrl+Shift+W		Closes the currently active window
+Ctrl+Shift+T		This combination reopens the last tab you've closed. If you've closed multiple tabs, you can press this shortcut key multiple times to restore each of the closed tabs.
+Ctrl+Tab		Moves through each of the open tabs (left to right). Doing Ctrl+Shift+Tab reverses the direction (right to left).

@@ -1,0 +1,9 @@
+1. $  sudo nano /etc/xdg/openbox/lxde-pi-rc.xml 
+2. find <keybinding>
+3. eg.     
+	    <keybind key="C-A-c">
+	    <action name="Execute">
+	    <command>chromium-browser</command>
+   	    </action>
+
+ 
