@@ -8,7 +8,7 @@ cd /home/priyanshu/Arduino-codes
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b backupBranch
+git checkout -b main
 git remote add origin git@github.com:Priyanshu-choudhary/Arduino-codes.git
 git push -u origin backupBranch
 #echo "backup complete......"
@@ -30,7 +30,7 @@ cd /home/priyanshu/c-language
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b backupBranch
+git checkout -b main
 git remote add origin git@github.com:Priyanshu-choudhary/c-language.git
 git push -u origin backupBranch
 #echo "backup complete......"
@@ -41,7 +41,7 @@ cd /home/priyanshu/shell
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b backupBranch
+git checkout -b master
 git remote add origin git@github.com:Priyanshu-choudhary/shell.git
 git push -u origin backupBranch
 #echo "backup complete......"
@@ -52,7 +52,7 @@ cd /home/priyanshu/Documents
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b backupBranch
+git checkout -b master
 git remote add origin git@github.com:Priyanshu-choudhary/Documents.git
 git push -u origin backupBranch
 #echo "backup complete......"
@@ -64,20 +64,8 @@ cd /home/priyanshu/web
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b backupBranch
+git checkout -b main
 git remote add origin git@github.com:Priyanshu-choudhary/web.git
-git push -u origin backupBranch
-#echo "backup complete......"
-
-
-#BACKUP FOLDER
-cd /home/priyanshu/Backup
-#echo "backup Start...."
-git init
-git add -A
-git commit -m "$itime"
-git checkout -b backupBranch
-git remote add origin git@github.com:Priyanshu-choudhary/Backup.git
 git push -u origin backupBranch
 #echo "backup complete......"
 
