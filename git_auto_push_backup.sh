@@ -10,7 +10,7 @@ git add -A
 git commit -m "$itime"
 git checkout -b main
 git remote add origin git@github.com:Priyanshu-choudhary/Arduino-codes.git
-git push -u origin backupBranch
+git push -u origin main
 #echo "backup complete......"
 
 #JAVA FOLDER
@@ -32,7 +32,7 @@ git add -A
 git commit -m "$itime"
 git checkout -b main
 git remote add origin git@github.com:Priyanshu-choudhary/c-language.git
-git push -u origin backupBranch
+git push -u origin main
 #echo "backup complete......"
 
 #SHELL FOLDER
@@ -43,7 +43,7 @@ git add -A
 git commit -m "$itime"
 git checkout -b master
 git remote add origin git@github.com:Priyanshu-choudhary/shell.git
-git push -u origin backupBranch
+git push -u origin master
 #echo "backup complete......"
 
 #DOCUMENTS FOLDER
@@ -54,7 +54,7 @@ git add -A
 git commit -m "$itime"
 git checkout -b master
 git remote add origin git@github.com:Priyanshu-choudhary/Documents.git
-git push -u origin backupBranch
+git push -u origin master
 #echo "backup complete......"
 
 
@@ -66,7 +66,7 @@ git add -A
 git commit -m "$itime"
 git checkout -b main
 git remote add origin git@github.com:Priyanshu-choudhary/web.git
-git push -u origin backupBranch
+git push -u origin main
 #echo "backup complete......"
 
 #fintime=`date`
