@@ -1,5 +1,17 @@
 #!/bin/sh
 
+#server FOLDER
+cd ~/server-directory
+#echo "backup Start...."
+git init
+git add -A
+git commit -m "$itime"
+git checkout -b main
+git remote add origin git@github.com:Priyanshu-choudhary/Server-directory.git
+git push -u origin main
+#echo "backup complete......"
+
+
 #ARDUINO FOLDER
 itime=`date`
 echo $itime
@@ -69,16 +81,6 @@ git remote add origin git@github.com:Priyanshu-choudhary/web.git
 git push -u origin bb
 #echo "backup complete......"
 
-#server FOLDER
-cd ~/server-directory
-#echo "backup Start...."
-git init
-git add -A
-git commit -m "$itime"
-git checkout -b main
-git remote add origin git@github.com:Priyanshu-choudhary/Server-directory.git
-git push -u origin main
-#echo "backup complete......"
 
 #fintime=`date`
 #echo $fintime
