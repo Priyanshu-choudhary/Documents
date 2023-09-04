@@ -70,7 +70,7 @@ git push -u origin bb
 #echo "backup complete......"
 
 #server FOLDER
-cd /home/priyanshu/server-directory
+cd ~/server-directory
 #echo "backup Start...."
 git init
 git add -A
