@@ -6,10 +6,10 @@ cd ~/server-directory
 git init
 git add -A
 git commit -m "$itime"
-#git checkout -b  bb2
-git branch -M main
+git checkout -b  test
+#git branch -M main
 git remote add origin git@github.com:Priyanshu-choudhary/Server-directory.git
-git push -u origin main
+git push -u origin test
 #echo "backup complete......"
 
 
