@@ -69,6 +69,17 @@ git remote add origin git@github.com:Priyanshu-choudhary/web.git
 git push -u origin bb
 #echo "backup complete......"
 
+#server FOLDER
+cd /home/priyanshu/server-directory
+#echo "backup Start...."
+git init
+git add -A
+git commit -m "$itime"
+git checkout -b bb
+git remote add origin git@github.com:Priyanshu-choudhary/web.git
+git push -u origin bb
+#echo "backup complete......"
+
 #fintime=`date`
 #echo $fintime
 
