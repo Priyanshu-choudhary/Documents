@@ -8,9 +8,9 @@ cd /home/priyanshu/Arduino-codes
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b main
+git checkout -b bb
 git remote add origin git@github.com:Priyanshu-choudhary/Arduino-codes.git
-git push -u origin main
+git push -u origin bb
 #echo "backup complete......"
 
 #JAVA FOLDER
@@ -41,9 +41,9 @@ cd /home/priyanshu/shell
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b master
+git checkout -b bb
 git remote add origin git@github.com:Priyanshu-choudhary/shell.git
-git push -u origin master
+git push -u origin bb
 #echo "backup complete......"
 
 #DOCUMENTS FOLDER
@@ -64,9 +64,9 @@ cd /home/priyanshu/web
 git init
 git add -A
 git commit -m "$itime"
-git checkout -b main
+git checkout -b bb
 git remote add origin git@github.com:Priyanshu-choudhary/web.git
-git push -u origin main
+git push -u origin bb
 #echo "backup complete......"
 
 #fintime=`date`
