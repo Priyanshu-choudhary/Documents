@@ -38,7 +38,7 @@ git pull	                                                                    //T
 git pull origin [branch name]	                                                    //To pull the changes from a remote repository
 git remote add origin ssh://git@github.com/[username]/[repository-name].git	    //To add a remote repository
 git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	    //To set a repository’s origin branch to SSH
-
+git remote rm origin                                                                //remove origin
 git remote set-url origin ssh://git@github.com:Priyanshu-choudhary/test2.git
 
 ///////Inspection and Comparison///////
