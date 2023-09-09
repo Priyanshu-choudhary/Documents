@@ -1,0 +1,9 @@
+1. open local terminal to the machine in which you want to transfer the file
+2. $ sftp priyanshu@raspberrypi.local        // login to remote machine
+3. $ get fileName.txt                        //download file from remote machine to local machine(in which folder terminal is open) 
+4. $ put fileName.txt                        //upload file to remote machine
+5. use -r for directory                      //eg. get -r folder  or put -r folder
+6. $reput fileName or reget fileName         //for resume if error occur
+7. $ get fileName localFileName              //Renameing 
+
+
